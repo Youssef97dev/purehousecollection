@@ -16,7 +16,7 @@ const imagesLarge = [
     class: "object-center",
   },
   {
-    src: "/riad/riad-hero-4.jpg",
+    src: "/riad/riad-hero-6.jpg",
     class: "object-bottom",
   },
 ];

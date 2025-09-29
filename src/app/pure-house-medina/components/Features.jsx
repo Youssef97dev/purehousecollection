@@ -13,7 +13,7 @@ const categories = [
     title: "Dining",
     subtitle:
       "At Pure House Marrakech, guests can savor delicious Moroccan and Mediterranean dishes made with the freshest ingredients, enjoying a leisurely breakfast in the garden or a relaxing dinner on the terrace, where every meal is thoughtfully prepared to delight the senses, create memorable moments, and offer a true taste of Marrakech’s culinary charm.",
-    image: "/riad/dining-riad.jpg",
+    image: "/riad/dining-riad-2.jpg",
   },
 ];
 
