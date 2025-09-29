@@ -6,12 +6,12 @@ import Info from "./Info";
 import Features from "./Features";
 import Map from "./Map";
 import Footer from "./Footer";
-import ButtonWtsp from "./ButtonWtsp";
+import ButtonWtsp from "@/app/pure-house-medina/components/ButtonWtsp";
 
 const Loader = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr/pure-house-medina"} />
+      <Navbar path={"/pure-house-medina"} />
       <Hero />
       <About />
       <Categories />

@@ -34,7 +34,7 @@ const Menu = ({ setIsOpen, path }) => {
               href="https://www.sevenrooms.com/explore/lesalamamarrakech/reservations/create/search/"
               className={`tracking-[0.1em] lg:tracking-[0.2em] font-light text-[10px] lg:text-[12px] leading-[28px] lg:leading-[34px] py-1 px-4  rounded text-riad_background bg-riad_secondary hover:bg-riad_primary`}
             >
-              Reserve
+              Réservation
             </Link>
           </div>
           <div
@@ -52,7 +52,7 @@ const Menu = ({ setIsOpen, path }) => {
             {isDropdownOpen && (
               <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
                 <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
-                  <Link rel="alternate" hreflang="en" href="#">
+                  <Link rel="alternate" hreflang="en" href={`${path}`}>
                     <Image
                       src="/english.png"
                       width={100}
@@ -63,7 +63,7 @@ const Menu = ({ setIsOpen, path }) => {
                   </Link>
                 </li>
                 <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
-                  <Link rel="alternate" hreflang="fr" href={`${path}`}>
+                  <Link rel="alternate" hreflang="fr" href="#">
                     <Image
                       src="/france.png"
                       width={100}

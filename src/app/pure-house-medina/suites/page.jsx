@@ -7,7 +7,7 @@ import Ameneties from "./components/Ameneties";
 const page = () => {
   return (
     <div className="relative flex flex-col">
-      <Navbar change={true} />
+      <Navbar path="/fr/pure-house-medina/suites" change={true} />
       <Intro />
       <Ameneties />
       <Footer />

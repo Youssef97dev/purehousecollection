@@ -51,7 +51,7 @@ const Navbar = ({ path, change = false }) => {
             <IoIosMenu />
           </div>
           <div className="w-full flex justify-center items-center pb-2">
-            <Link href="/pure-house-medina">
+            <Link href="/fr/pure-house-medina">
               <Image
                 src={
                   scrolled || change
@@ -75,7 +75,7 @@ const Navbar = ({ path, change = false }) => {
                     : "text-riad_background bg-transparent hover:bg-riad_background hover:text-riad_primary border border-riad_background"
                 }`}
               >
-                Reserve
+                Réservations
               </Link>
             </div>
             <div
@@ -95,7 +95,7 @@ const Navbar = ({ path, change = false }) => {
               {isDropdownOpen && (
                 <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
                   <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
-                    <Link rel="alternate" hreflang="en" href="#">
+                    <Link rel="alternate" hreflang="en" href={`${path}`}>
                       <Image
                         src="/english.png"
                         width={100}
@@ -106,7 +106,7 @@ const Navbar = ({ path, change = false }) => {
                     </Link>
                   </li>
                   <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
-                    <Link rel="alternate" hreflang="fr" href={`${path}`}>
+                    <Link rel="alternate" hreflang="fr" href="#">
                       <Image
                         src="/france.png"
                         width={100}
@@ -143,23 +143,23 @@ const Navbar = ({ path, change = false }) => {
                     <ul className="space-y-2 text-[12px] text-riad_secondary">
                       <li>
                         <Link
-                          href="/pure-house-medina/standard"
+                          href="/fr/pure-house-medina/standard"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Standard Rooms
+                          Chambres Standard
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/pure-house-medina/delux"
+                          href="/fr/pure-house-medina/delux"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
-                          Deluxe Rooms
+                          Chambres Deluxe
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/pure-house-medina/suites"
+                          href="/fr/pure-house-medina/suites"
                           className="hover:text-riad_primary transition-all duration-200 ease-in-out"
                         >
                           Suites
