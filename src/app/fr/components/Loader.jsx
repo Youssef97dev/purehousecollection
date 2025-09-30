@@ -34,7 +34,7 @@ const Loader = () => {
             />
           </Link>
 
-          <Link href="#" className="">
+          <Link href="/fr/pure-farmhouse" className="">
             <Image
               src="/farm/farm-logo-black.png" // Replace with your logo path
               alt="Logo"

@@ -11,10 +11,15 @@ module.exports = {
         riad_background: "var(--riad-background)",
         riad_primary: "var(--riad-primary)",
         riad_secondary: "var(--riad-secondary)",
+        farmhouse_background: "var(--farmhouse-background)",
+        farmhouse_text: "var(--farmhouse-text)",
       },
       fontFamily: {
         robotoThin: ["RobotoThin", "sans-serif"],
         tntSport: ["TNTSportsSerif", "serif"],
+        anagoThin: ["AnagoThin", "sans-serif"],
+        astrolove: ["Astrolove", "sans-serif"],
+        vanitas: ["Vanitas", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",
