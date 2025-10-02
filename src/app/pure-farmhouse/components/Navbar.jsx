@@ -47,7 +47,7 @@ const Navbar = ({ path, change = false }) => {
               />
             </Link>
           </div>
-          <ul className="w-full lg:flex hidden justify-center items-center gap-10 uppercase text-[11px] tracking-widest">
+          <ul className="w-full lg:flex hidden justify-center items-center gap-10 uppercase text-[12px] font-medium tracking-widest">
             <li>
               <Link href="/pure-farmhouse">
                 <Image
@@ -60,24 +60,23 @@ const Navbar = ({ path, change = false }) => {
               </Link>
             </li>
             <li className="hover:text-black">
-              <Link href="/">{"Home"}</Link>
+              <Link href="/pure-farmhouse">{"Home"}</Link>
             </li>
             <li className="hover:text-black">
-              <Link href="/accommodation">{"Accommodation"}</Link>
+              <Link href="/pure-farmhouse/gallery">{"Gallery"}</Link>
             </li>
             <li className="hover:text-black">
-              <Link href="/gallery">{"Gallery"}</Link>
+              <Link href="/pure-farmhouse/contact">{"Contact"}</Link>
             </li>
             <li className="hover:text-black">
-              <Link href="/pure-house-medina">{"Pure House Medina"}</Link>
+              <Link href="https://purehousemarrakech.com/">
+                {"Pure House Medina"}
+              </Link>
             </li>
             <li className="hover:text-black">
               <Link href="/pure-house-on-the-lake">
                 {"Pure House On The Lake"}
               </Link>
-            </li>
-            <li className="hover:text-black">
-              <Link href="#">{"Pure House Ibiza"}</Link>
             </li>
             <li>
               <div
@@ -93,27 +92,15 @@ const Navbar = ({ path, change = false }) => {
                   </div>
                 </button>
                 {isDropdownOpen && (
-                  <ul className="absolute rounded top-8 -left-12 bg-riad_background mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
-                    <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
+                  <ul className="absolute rounded top-4 -left-0 bg-white mt-2 py-1 w-10 shadow-lg flex flex-col justify-center items-center">
+                    <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
                       <Link rel="alternate" hreflang="en" href="#">
-                        <Image
-                          src="/english.png"
-                          width={100}
-                          height={100}
-                          alt="farmhouse"
-                          className="w-6 h-6 md:w-7 md:h-7"
-                        />
+                        {"EN"}
                       </Link>
                     </li>
-                    <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
+                    <li className="px-2 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary transition-all duration-200 ease-in-out">
                       <Link rel="alternate" hreflang="fr" href={`${path}`}>
-                        <Image
-                          src="/france.png"
-                          width={100}
-                          height={100}
-                          alt="farmhouse"
-                          className="w-6 h-6 md:w-7 md:h-7"
-                        />
+                        {"FR"}
                       </Link>
                     </li>
                   </ul>
