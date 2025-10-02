@@ -18,7 +18,7 @@ const About = () => {
         }
       </p>
       <Image
-        src="/farm/about-farm.jpg"
+        src="/farm/farmhouse-about.jpg"
         alt="farm house"
         width={1000}
         height={1000}
