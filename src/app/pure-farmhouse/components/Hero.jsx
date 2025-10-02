@@ -98,15 +98,17 @@ const Hero = () => {
         ))}
       </div>
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-10 top-0 w-full h-full flex justify-center items-center">
+      <div className="absolute top-28 lg:top-0 w-full h-full flex justify-center items-center">
         <Image
           src="/farm/farm-logo-white.png"
           width={300}
           height={300}
           alt="Logo Pure Farm House"
-          className={`w-36 lg:w-44`}
+          className={`w-56 lg:w-60 opacity-95`}
         />
       </div>
+
+      <div className="absolute inset-0 bg-black bg-opacity-10 top-0 w-full h-full flex justify-center items-center"></div>
 
       <div className="absolute bottom-0 w-full bg-black bg-opacity-70 text-white text-center text-[14px] tracking-widest font-anagoThin py-2">
         <Link href="#" className="hover:underline">

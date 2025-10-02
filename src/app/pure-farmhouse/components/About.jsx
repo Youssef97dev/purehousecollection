@@ -24,7 +24,7 @@ const About = () => {
         height={1000}
         className="object-cover pb-4 h-[60dvh] lg:h-[90dvh] px-5 lg:px-0"
       />
-      <p className="px-5 lg:px-96 font-astrolove text-[50px] lg:text-[55px] leading-[40px] text-center text-farmhouse_text">
+      <p className="px-14 lg:px-96 font-astrolove text-[70px] lg:text-[55px] leading-[40px] text-center text-farmhouse_text">
         {
           "Embrace the art of slow living in a finca where history nature and wellbeing come together in perfect unity"
         }
