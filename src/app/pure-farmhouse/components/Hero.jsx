@@ -80,22 +80,13 @@ const Hero = () => {
         ))}
       </div>
       <div className="w-full h-full lg:hidden block">
-        {imagesSmall.map((image, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <Image
-              src={image.src}
-              alt={`Image ${index + 1}`}
-              width={1500}
-              height={1500}
-              className={`w-full h-full object-cover ${image.class}`}
-            />
-          </div>
-        ))}
+        <video className="object-cover h-full w-full" autoPlay loop muted>
+          <source
+            src="https://res.cloudinary.com/dz7wroord/video/upload/v1759420875/PureFarmHouse/farmhouse-hero_wredtt.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
       </div>
       {/* Overlay */}
       <div className="absolute top-28 lg:top-0 w-full h-full flex justify-center items-center">
