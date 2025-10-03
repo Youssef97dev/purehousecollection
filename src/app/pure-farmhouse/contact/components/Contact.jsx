@@ -5,12 +5,12 @@ const Contact = () => {
     <section className="w-full bg-farmhouse_background">
       <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
         {/* Left side - Text */}
-        <div className="flex flex-col justify-center px-8 md:px-16 lg:py-12 py-5">
+        <div className="flex flex-col justify-center px-8 md:px-16 lg:py-12 py-5 font-montserrat">
           <h2 className="text-5xl md:text-[90px] mb-8 leading-tight font-vanitas text-riad_primary">
             HOW TO <br /> GET HERE?
           </h2>
 
-          <div className="space-y-4 text-[13px] lg:text-[12px] leading-[23px] text-farmhouse_text font-light">
+          <div className="space-y-4 text-[13px] lg:text-[14px] leading-[23px] text-farmhouse_text ">
             <p>
               📍 Lalla Takerkoust, Marrakech <br />
               40000 Morocco

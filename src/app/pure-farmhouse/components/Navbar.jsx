@@ -47,7 +47,7 @@ const Navbar = ({ path, change = false }) => {
               />
             </Link>
           </div>
-          <ul className="w-full lg:flex hidden justify-center items-center gap-10 uppercase text-[12px] font-medium tracking-widest">
+          <ul className="w-full lg:flex hidden justify-center items-center gap-10 uppercase text-[12px] leading-[20.4px] font-montserrat font-light tracking-widest">
             <li>
               <Link href="/pure-farmhouse">
                 <Image

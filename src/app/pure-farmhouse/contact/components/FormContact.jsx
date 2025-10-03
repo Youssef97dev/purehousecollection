@@ -12,9 +12,9 @@ const FormContact = () => {
         </div>
 
         {/* Right side - Form */}
-        <div className="flex items-center px-8 md:px-16 py-12">
+        <div className="flex items-center px-8 md:px-16 py-12 font-montserrat">
           <form className="w-full max-w-lg space-y-6 ">
-            <h3 className="text-xl lg:text-2xl text-riad_primary  mb-4">
+            <h3 className="text-xl lg:text-2xl text-riad_primary font-semibold  mb-4">
               How can we help you?
             </h3>
 
@@ -23,7 +23,7 @@ const FormContact = () => {
               <input
                 type="text"
                 placeholder="Name"
-                className="w-full border-b border-black bg-transparent focus:outline-none py-2 font-light"
+                className="w-full border-b border-black bg-transparent focus:outline-none py-2"
               />
             </div>
 
@@ -32,7 +32,7 @@ const FormContact = () => {
               <input
                 type="email"
                 placeholder="Email"
-                className="w-full border-b border-black bg-transparent focus:outline-none py-2 font-light"
+                className="w-full border-b border-black bg-transparent focus:outline-none py-2"
                 required
               />
             </div>
@@ -42,7 +42,7 @@ const FormContact = () => {
               <input
                 type="text"
                 placeholder="Subject"
-                className="w-full border-b border-black bg-transparent focus:outline-none py-2 font-light"
+                className="w-full border-b border-black bg-transparent focus:outline-none py-2"
               />
             </div>
 
@@ -50,7 +50,7 @@ const FormContact = () => {
             <div>
               <textarea
                 placeholder="Message"
-                className="w-full border-b border-black bg-transparent focus:outline-none py-2 font-light"
+                className="w-full border-b border-black bg-transparent focus:outline-none py-2"
                 rows={3}
               ></textarea>
             </div>
@@ -67,7 +67,7 @@ const FormContact = () => {
             {/* Submit button */}
             <button
               type="submit"
-              className="bg-black text-white px-8 py-3 uppercase font-vanitas tracking-widest hover:bg-gray-900 transition"
+              className="bg-black text-white px-8 py-3 uppercase font-semibold tracking-widest hover:bg-gray-900 transition"
             >
               Send
             </button>

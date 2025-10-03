@@ -20,6 +20,7 @@ module.exports = {
         anagoThin: ["AnagoThin", "sans-serif"],
         astrolove: ["Astrolove", "sans-serif"],
         vanitas: ["Vanitas", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",
