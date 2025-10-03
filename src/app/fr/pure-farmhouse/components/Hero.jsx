@@ -101,7 +101,7 @@ const Hero = () => {
 
       <div className="absolute inset-0 bg-black bg-opacity-10 top-0 w-full h-full flex justify-center items-center"></div>
 
-      <div className="absolute bottom-0 w-full bg-black bg-opacity-70 text-white text-center text-[14px] tracking-widest font-anagoThin py-2">
+      <div className="absolute bottom-0 w-full bg-black bg-opacity-70 text-white text-center text-[14px] font-montserrat py-2">
         <Link href="#" className="hover:underline">
           {"Réservez dès maintenant et bénéficiez d’offres exclusives"}
         </Link>

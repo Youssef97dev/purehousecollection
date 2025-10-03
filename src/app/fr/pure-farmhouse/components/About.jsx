@@ -12,7 +12,7 @@ const About = () => {
           {"Retraite pour une vie authentique"}
         </b>
       </div>
-      <p className="font-anagoThin text-[16px] leading-[27px] text-center px-5">
+      <p className="font-montserrat text-[15px] leading-[27px] text-center px-5">
         {
           "Plongez dans un sanctuaire de guérison entouré d’oliveraies et d’horizons infinis, où chaque détail invite à l’équilibre et à l’harmonie."
         }
@@ -26,7 +26,7 @@ const About = () => {
       />
       <p className="px-14 lg:px-48 font-astrolove text-[70px] lg:text-[55px] leading-[40px] text-center text-farmhouse_text">
         {
-          "Adoptez l’art du slow living dans une finca où l’histoire la nature et le bien-être s’unissent en parfaite harmonie"
+          "Adoptez l art du slow living dans une finca ou l histoire la nature et le bien etre s unissent en parfaite harmonie"
         }
       </p>
     </div>

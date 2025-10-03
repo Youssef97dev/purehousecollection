@@ -9,7 +9,7 @@ const AboutTwo = () => {
           {"Finca de Pure Sérénité"}
         </h1>
       </div>
-      <p className="font-anagoThin text-[16px] leading-[27px] text-center px-5 lg:px-48">
+      <p className="font-montserrat text-[15px] leading-[27px] text-center px-5 lg:px-48">
         {
           "Notre ferme, Pure Farmhouse, est un lieu qui évoque un sentiment positif de confort et un espace où l’on fait l’expérience d’un profond bien-être."
         }

@@ -12,7 +12,7 @@ const About = () => {
           {"RETREAT FOR SOULFUL LIVING"}
         </b>
       </div>
-      <p className="font-anagoThin text-[16px] leading-[27px] text-center px-5">
+      <p className="font-montserrat text-[15px] leading-[27px] text-center px-5">
         {
           "Step into a healing sanctuary surrounded by olive groves and endless skies, where every detail invites balance and harmony."
         }

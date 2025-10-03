@@ -16,8 +16,6 @@ module.exports = {
       },
       fontFamily: {
         robotoThin: ["RobotoThin", "sans-serif"],
-        tntSport: ["TNTSportsSerif", "serif"],
-        anagoThin: ["AnagoThin", "sans-serif"],
         astrolove: ["Astrolove", "sans-serif"],
         vanitas: ["Vanitas", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
