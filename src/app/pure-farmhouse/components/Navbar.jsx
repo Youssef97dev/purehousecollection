@@ -130,49 +130,33 @@ const Navbar = ({ path, change = false }) => {
                 className="space-y-8 text-farmhouse_text leading-[25px] text-[22px] font-vanitas uppercase"
               >
                 <li className="hover:text-black">
-                  <Link href="/">{"Home"}</Link>
+                  <Link href="/pure-farmhouse">{"Home"}</Link>
                 </li>
                 <li className="hover:text-black">
-                  <Link href="/accommodation">{"Accommodation"}</Link>
+                  <Link href="/pure-farmhouse/gallery">{"Gallery"}</Link>
                 </li>
                 <li className="hover:text-black">
-                  <Link href="/gallery">{"Gallery"}</Link>
+                  <Link href="/pure-farmhouse/contact">{"contact"}</Link>
                 </li>
                 <li className="hover:text-black">
-                  <Link href="/contact">{"contact"}</Link>
-                </li>
-                <li className="hover:text-black">
-                  <Link href="/pure-house-medina">{"Pure House Medina"}</Link>
+                  <Link href="https://purehousemarrakech.com/">
+                    {"Pure House Medina"}
+                  </Link>
                 </li>
                 <li className="hover:text-black">
                   <Link href="/pure-house-on-the-lake">
                     {"Pure House On The Lake"}
                   </Link>
                 </li>
-                <li className="hover:text-black">
-                  <Link href="#">{"Pure House Ibiza"}</Link>
-                </li>
                 <ul className="py-2 w-full flex justify-start items-start gap-3">
                   <li className="px-2 rounded-lg cursor-pointer">
                     <Link rel="alternate" hreflang="en" href="#">
-                      <Image
-                        src="/english.png"
-                        width={100}
-                        height={100}
-                        alt="le salama restaurant"
-                        className="w-7 h-7 md:w-7 md:h-7"
-                      />
+                      {"EN"}
                     </Link>
                   </li>
                   <li className="px-2 rounded-lg cursor-pointer">
                     <Link rel="alternate" hreflang="fr" href={`${path}`}>
-                      <Image
-                        src="/france.png"
-                        width={100}
-                        height={100}
-                        alt="le salama restaurant"
-                        className="w-7 h-7 md:w-7 md:h-7"
-                      />
+                      {"FR"}
                     </Link>
                   </li>
                 </ul>
