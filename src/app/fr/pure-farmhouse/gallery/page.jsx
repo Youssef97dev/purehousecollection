@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const page = () => {
   return (
     <div className="relative">
-      <Navbar path={"/fr/pure-farmhouse/gallery"} />
+      <Navbar path="/pure-farmhouse/gallery" />
       <Gallery />
       <div className="w-[60%] h-[1px] bg-farmhouse_text mx-auto"></div>
       <Footer />

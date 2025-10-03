@@ -7,7 +7,7 @@ import FormContact from "./components/FormContact";
 const page = () => {
   return (
     <div className="relative">
-      <Navbar path="/fr/pure-farmhouse/contact" />
+      <Navbar path="/pure-farmhouse/contact" />
       <Contact />
       <div className="w-full h-[1px] bg-farmhouse_text mx-auto"></div>
       <FormContact />
