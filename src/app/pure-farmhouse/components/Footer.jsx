@@ -21,7 +21,7 @@ const Footer = () => {
 
         <div className="w-full font-montserrat md:w-[60%] flex flex-col md:flex-row justify-between items-center md:items-start space-y-10 md:space-y-0">
           {/* Left Section */}
-          <div className="flex flex-col justify-center items-center md:items-start space-y-7 text-[12px] lg:text-[15px] leading-[12px] text-riad_primary">
+          <div className="flex flex-col justify-center items-center md:items-start space-y-7 text-[13px] lg:text-[15px] leading-[12px] text-riad_primary">
             <span>
               <FaLocationDot className="inline mr-1" />
               {"Lalla Takerkoust, Marrakech 40000 Morocco"}
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
 
           {/* Center Section */}
-          <div className="flex flex-col justify-center items-center md:items-start space-y-7 text-[15px] leading-[12px] text-riad_primary">
+          <div className="flex flex-col justify-center items-center md:items-start space-y-7 text-[13px] lg:text-[15px] leading-[12px] text-riad_primary">
             <span>
               <Link href="/pure-farmhouse">{"Farm House"}</Link>
             </span>
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           {/* Right Section */}
-          <div className="flex flex-col justify-center items-center md:items-start space-y-7 text-[15px] leading-[12px] text-riad_primary">
+          <div className="flex flex-col justify-center items-center md:items-start space-y-7 text-[13px] lg:text-[15px] leading-[12px] text-riad_primary">
             <span>
               <Link href="https://www.instagram.com/pure.farmhouse/">
                 {"Instagram"}
