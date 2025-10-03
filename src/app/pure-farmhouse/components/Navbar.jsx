@@ -33,9 +33,9 @@ const Navbar = ({ path, change = false }) => {
   return (
     isClient && (
       <nav
-        className={`fixed z-50 w-full py-0 bg-farmhouse_background text-farmhouse_text font-anagoThin border-b border-farmhouse_text`}
+        className={`fixed z-50 w-full py-0 bg-farmhouse_background text-farmhouse_text border-b border-farmhouse_text`}
       >
-        <div className="w-full flex justify-between lg:justify-center items-center mx-auto py-1 px-5 lg:px-10">
+        <div className="w-full flex justify-between lg:justify-center items-center mx-auto py-3 px-5 lg:px-10">
           <div className="w-full lg:hidden block">
             <Link href="/pure-farmhouse">
               <Image
@@ -47,7 +47,7 @@ const Navbar = ({ path, change = false }) => {
               />
             </Link>
           </div>
-          <ul className="w-full lg:flex hidden justify-center items-center gap-10 uppercase text-[12px] leading-[20.4px] font-montserrat font-light tracking-widest">
+          <ul className="w-full lg:flex hidden justify-center items-center gap-10 uppercase text-[12px] leading-[20.4px] font-montserrat font-normal tracking-widest">
             <li>
               <Link href="/pure-farmhouse">
                 <Image
