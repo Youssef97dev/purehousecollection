@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
         {/* Left side - Text */}
         <div className="flex flex-col justify-center px-8 md:px-16 lg:py-12 py-5">
-          <h2 className="text-5xl md:text-[70px] mb-8 leading-tight font-vanitas text-riad_primary">
+          <h2 className="text-5xl md:text-[90px] mb-8 leading-tight font-vanitas text-riad_primary">
             HOW TO <br /> GET HERE?
           </h2>
 
