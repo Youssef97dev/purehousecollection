@@ -39,6 +39,12 @@
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: "Lora";
+  src: url("./fonts/Lora-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root {
   --riad-background: #e4e0dc;
@@ -47,6 +53,11 @@
 
   --farmhouse-background: #e4e2dd;
   --farmhouse-text: #222222;
+
+  --lake-background: #ffffff;
+  --lake-button: #b5a697;
+  --lake-text: #2e2e2c;
+  --lake-nav-mobile: #b5a697f5;
 }
 
 html {

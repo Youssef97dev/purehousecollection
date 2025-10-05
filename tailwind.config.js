@@ -13,12 +13,17 @@ module.exports = {
         riad_secondary: "var(--riad-secondary)",
         farmhouse_background: "var(--farmhouse-background)",
         farmhouse_text: "var(--farmhouse-text)",
+        lake_background: "var(--lake-background)",
+        lake_button: "var(--lake-button)",
+        lake_text: "var(--lake-text)",
+        lake_mobile: "var(--lake-nav-mobile)",
       },
       fontFamily: {
         robotoThin: ["RobotoThin", "sans-serif"],
         astrolove: ["Astrolove", "sans-serif"],
         vanitas: ["Vanitas", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        lora: ["Lora", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",

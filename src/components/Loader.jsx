@@ -44,7 +44,7 @@ const Loader = () => {
             />
           </Link>
 
-          <Link href="#" className="">
+          <Link href="/pure-house-on-the-lake" className="">
             <Image
               src="/lake/lake-logo-black-v2.png" // Replace with your logo path
               alt="Logo"
