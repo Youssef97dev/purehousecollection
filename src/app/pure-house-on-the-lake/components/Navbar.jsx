@@ -26,21 +26,30 @@ const Navbar = ({ path, change = false }) => {
 
   return (
     <nav
-      className={`fixed z-[60] w-full transition-colors duration-300 py-4 ${
+      className={`absolute md:fixed z-[60] w-full transition-colors duration-300 py-4 ${
         scrolled || change
           ? "bg-lake_background text-lake_text"
-          : "bg-transparent text-white"
+          : "bg-lake_background md:bg-transparent text-white"
       }`}
     >
       <div className="w-full flex justify-between items-center mx-auto px-5 lg:px-14">
         <div className="w-full lg:w-[20%] flex justify-start items-center gap-10">
-          <Link href="/pure-house-on-the-lake">
+          <Link href="/pure-house-on-the-lake" className="hidden md:block">
             <Image
               src={
                 scrolled
                   ? "/lake/lake-logo-brown-nav.png"
                   : "/lake/lake-logo-white-nav.png"
               }
+              width={300}
+              height={300}
+              alt="Logo pure house on the lake"
+              className={`mt-2 w-28 lg:w-44`}
+            />
+          </Link>
+          <Link href="/pure-house-on-the-lake" className="block md:hidden">
+            <Image
+              src={"/lake/lake-logo-brown-nav.png"}
               width={300}
               height={300}
               alt="Logo pure house on the lake"
@@ -129,7 +138,7 @@ const Navbar = ({ path, change = false }) => {
             </div>
             <ul
               onClick={() => setIsOpen(false)}
-              className="space-y-8 text-white leading-[25px] text-[14px] flex flex-col justify-center items-center"
+              className="space-y-6 text-white leading-[49px] text-[16px] flex flex-col justify-center items-center"
             >
               <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
                 <Link href="/pure-house-on-the-lake">{"Home"}</Link>
