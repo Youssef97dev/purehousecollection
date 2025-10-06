@@ -24,6 +24,7 @@ module.exports = {
         vanitas: ["Vanitas", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         lora: ["Lora", "sans-serif"],
+        helvetica: ["HelveticaNeueThin", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",
