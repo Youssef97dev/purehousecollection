@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
-const Footer = () => {
+const Footer = ({ path }) => {
   return (
     <footer className="">
       <div className="max-w-6xl mx-auto px-4 py-10">
@@ -14,7 +14,10 @@ const Footer = () => {
           <Link href="#" className="hover:text-gray-800">
             Events
           </Link>
-          <Link href="#" className="hover:text-gray-800">
+          <Link
+            href="/pure-house-on-the-lake/gallery"
+            className="hover:text-gray-800"
+          >
             Gallery
           </Link>
           <Link href="#" className="hover:text-gray-800">
@@ -50,10 +53,20 @@ const Footer = () => {
 
         {/* Languages */}
         <div className="flex justify-center mt-10 space-x-6 text-xs uppercase tracking-widest text-[#B5A697]">
-          <Link href="#" className="hover:text-gray-800">
+          <Link
+            rel="alternate"
+            hreflang="en"
+            href="#"
+            className="hover:text-gray-800"
+          >
             English
           </Link>
-          <Link href="#" className="hover:text-gray-800">
+          <Link
+            rel="alternate"
+            hreflang="fr"
+            href={`${path}`}
+            className="hover:text-gray-800"
+          >
             Français
           </Link>
         </div>

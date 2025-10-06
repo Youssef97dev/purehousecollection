@@ -37,7 +37,7 @@ const Navbar = ({ path, change = false }) => {
           <Link href="/pure-house-on-the-lake" className="hidden md:block">
             <Image
               src={
-                scrolled
+                scrolled || change
                   ? "/lake/lake-logo-brown-nav.png"
                   : "/lake/lake-logo-white-nav.png"
               }

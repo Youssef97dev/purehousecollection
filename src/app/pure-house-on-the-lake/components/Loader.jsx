@@ -23,7 +23,7 @@ const Loader = () => {
       <Events />
       <SectionRd />
       <SendMessage />
-      <Footer />
+      <Footer path={"/fr/pure-house-on-the-lake"} />
     </div>
   );
 };
