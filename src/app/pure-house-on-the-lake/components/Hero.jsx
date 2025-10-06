@@ -100,7 +100,7 @@ const Hero = () => {
             width={300}
             height={300}
             alt="Logo pure house on the lake"
-            className={`mt-2 w-48 lg:w-56`}
+            className={`mt-2 w-64 lg:w-60`}
           />
         </Link>
       </div>

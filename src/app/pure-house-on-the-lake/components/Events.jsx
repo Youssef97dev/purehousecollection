@@ -3,7 +3,7 @@ import React from "react";
 const Events = () => {
   return (
     <section
-      className="relative h-[70vh] md:bg-fixed bg-bottom bg-cover flex items-center justify-center"
+      className="relative h-[70vh] bg-fixed bg-bottom bg-cover flex items-center justify-center"
       style={{
         backgroundImage: "url('/lake/purehouse-on-the-lake-events.jpg')",
       }}
