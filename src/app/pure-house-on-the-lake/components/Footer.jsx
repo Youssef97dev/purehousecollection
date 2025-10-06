@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = ({ path }) => {
   return (
@@ -29,11 +29,14 @@ const Footer = ({ path }) => {
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-16 lg:gap-6 py-10">
           {/* Social Icons */}
           <div className="flex space-x-6 text-white text-2xl">
-            <Link href="#" className="bg-[#C3B6AD] p-3 rounded-full">
+            <Link
+              href="https://www.instagram.com/pure_house_on_the_lake_/"
+              className="bg-[#C3B6AD] p-3 rounded-full"
+            >
               <FaInstagram />
             </Link>
             <Link href="#" className="bg-[#C3B6AD] p-3 rounded-full">
-              <FaFacebookF />
+              <FaWhatsapp />
             </Link>
           </div>
 
