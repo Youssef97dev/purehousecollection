@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section
-      className="relative h-[70vh] md:bg-fixed bg-center bg-cover flex items-center justify-center"
+      className="relative h-[70vh] bg-fixed bg-center bg-cover flex items-center justify-center"
       style={{ backgroundImage: "url('/lake/on-the-lake-large-5.jpg')" }}
     >
       {/* Overlay */}
