@@ -33,31 +33,31 @@ const Navbar = ({ path, change = false }) => {
       }`}
     >
       <div className="w-full flex justify-between items-center mx-auto px-5 lg:px-14">
-        <div className="w-full lg:w-[20%] flex justify-start items-center gap-10">
+        <div className="w-[80%] lg:w-[30%] flex justify-start items-center gap-10">
           <Link href="/pure-house-on-the-lake" className="hidden md:block">
             <Image
               src={
                 scrolled || change
-                  ? "/lake/lake-logo-brown-nav.png"
-                  : "/lake/lake-logo-white-nav.png"
+                  ? "/lake/pure-house-lake-brown.png"
+                  : "/lake/pure-house-lake-white.png"
               }
               width={300}
               height={300}
               alt="Logo pure house on the lake"
-              className={`mt-2 w-28 lg:w-44`}
+              className={`w-full mb-1`}
             />
           </Link>
           <Link href="/pure-house-on-the-lake" className="block md:hidden">
             <Image
-              src={"/lake/lake-logo-brown-nav.png"}
+              src={"/lake/pure-house-lake-brown.png"}
               width={300}
               height={300}
               alt="Logo pure house on the lake"
-              className={`mt-2 w-28 lg:w-44`}
+              className={`w-[90%]`}
             />
           </Link>
         </div>
-        <ul className="w-full lg:w-[60%] lg:flex hidden justify-end items-center gap-10 uppercase text-[12px] leading-[20.4px] font-montserrat font-normal tracking-widest">
+        <ul className="w-full lg:w-[50%] lg:flex hidden justify-end items-center gap-10 uppercase text-[12px] leading-[20.4px] font-montserrat font-normal tracking-widest">
           <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
             <Link href="/pure-house-on-the-lake">{"Home"}</Link>
           </li>
@@ -114,7 +114,7 @@ const Navbar = ({ path, change = false }) => {
           </div>
         </div>
         <div
-          className={`pb-1 cursor-pointer w-full flex justify-end items-center text-[30px] lg:text-[30px] text-lake_button lg:hidden`}
+          className={`w-[20%] pb-1 cursor-pointer flex justify-end items-center text-[30px] lg:text-[30px] text-lake_button lg:hidden`}
           onClick={() => setIsOpen((prev) => !prev)}
         >
           <IoIosMenu />
