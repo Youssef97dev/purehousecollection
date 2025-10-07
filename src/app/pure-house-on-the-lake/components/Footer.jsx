@@ -8,7 +8,10 @@ const Footer = ({ path }) => {
       <div className="max-w-6xl mx-auto px-4 py-10">
         {/* Top Links */}
         <div className="w-full flex flex-col lg:flex-row justify-around items-center gap-8 text-[15px] leading-[24.75px] tracking-widest text-[#B5A697] uppercase mb-10">
-          <Link href="#" className="hover:text-gray-800">
+          <Link
+            href="/pure-house-on-the-lake/location"
+            className="hover:text-gray-800"
+          >
             Location
           </Link>
           <Link
