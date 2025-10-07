@@ -13,7 +13,7 @@ const SendMessage = () => {
   };
 
   return (
-    <section className="w-full flex justify-center px-5 md:px-20 lg:px-36 py-12">
+    <section className="w-full flex justify-center px-5 md:px-20 lg:px-28 py-12">
       <div className="w-full bg-[#DED9D3] p-8">
         <h2 className="uppercase text-center text-[28px] leading-[30.8px] font-thin tracking-widest text-white mb-8">
           Get In Touch
