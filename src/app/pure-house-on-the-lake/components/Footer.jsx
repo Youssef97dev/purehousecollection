@@ -11,7 +11,16 @@ const Footer = ({ path }) => {
           <Link href="#" className="hover:text-gray-800">
             Location
           </Link>
-          <Link href="#" className="hover:text-gray-800">
+          <Link
+            href="/pure-house-on-the-lake/about"
+            className="hover:text-gray-800"
+          >
+            About
+          </Link>
+          <Link
+            href="/pure-house-on-the-lake/events"
+            className="hover:text-gray-800"
+          >
             Events
           </Link>
           <Link
@@ -19,9 +28,6 @@ const Footer = ({ path }) => {
             className="hover:text-gray-800"
           >
             Gallery
-          </Link>
-          <Link href="#" className="hover:text-gray-800">
-            Contact
           </Link>
         </div>
 
