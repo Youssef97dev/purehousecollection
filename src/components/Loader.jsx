@@ -9,7 +9,7 @@ const Loader = () => {
   return (
     <div className="relative bg-[#E6E1C9] h-screen">
       {/* Beige background with logo animation */}
-      <div className="h-full flex flex-col items-center justify-start pt-28 lg:pt-10 gap-5">
+      <div className="h-full flex flex-col items-center justify-start pt-24 lg:pt-10 gap-5">
         <div className="w-full flex flex-col justify-center items-center pt-10">
           <Image
             src="/logo-pure-house-collection.png" // Replace with your logo path
