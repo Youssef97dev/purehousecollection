@@ -12,7 +12,7 @@ const Loader = () => {
       <div className="h-full flex flex-col items-center justify-start pt-24 lg:pt-10 gap-5">
         <div className="w-full flex flex-col justify-center items-center">
           <Image
-            src="/logo-pure-house-collection-brown.png" // Replace with your logo path
+            src="/logo-pure-house-collection.png" // Replace with your logo path
             alt="Logo"
             width={500}
             height={500}
@@ -22,7 +22,7 @@ const Loader = () => {
           <MdOutlineKeyboardArrowDown size={12} />*/}
         </div>
 
-        <div className="w-full flex justify-center items-end gap-14 lg:gap-20 pt-24">
+        <div className="w-full flex justify-center items-end gap-14 lg:gap-20 pt-36">
           <Link href="https://purehousemarrakech.com/" className="">
             <Image
               src="/riad/riad-logo-black-v3.png" // Replace with your logo path
@@ -53,7 +53,7 @@ const Loader = () => {
             />
           </Link>
         </div>
-        <p className="px-4 pt-9 lg:px-[28.5rem] font-robotoThin text-center text-[28px] lg:text-[25px] leading-[32px] lg:leading-[30px] text-[#79431d] pb-10 uppercase">{`A Home Away From Home`}</p>
+        <p className="px-4 pt-5 lg:px-[28.5rem] font-robotoThin text-center text-[28px] lg:text-[25px] leading-[32px] lg:leading-[30px] text-[#000000] pb-10 uppercase">{`A Home Away From Home`}</p>
       </div>
 
       <div className="absolute top-8 right-10">
@@ -62,7 +62,7 @@ const Loader = () => {
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
         >
           <button
-            className={`font-light tracking-widest flex justify-center items-center gap-2 pb-1 text-[#79431d]`}
+            className={`font-light tracking-widest flex justify-center items-center gap-2 pb-1 text-[#000000]`}
           >
             <span>{"English"}</span>
             <div className="">
