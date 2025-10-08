@@ -22,7 +22,7 @@ const Loader = () => {
           <MdOutlineKeyboardArrowDown size={12} />*/}
         </div>
 
-        <div className="w-full flex justify-center items-end gap-14 lg:gap-20 pt-36">
+        <div className="w-full flex justify-center items-end gap-14 lg:gap-20 pt-44">
           <Link href="https://purehousemarrakech.com/" className="">
             <Image
               src="/riad/riad-logo-black-v3.png" // Replace with your logo path
