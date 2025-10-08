@@ -11,7 +11,7 @@ const GalleryImage = [
     class: "object-center",
   },
   {
-    image: "/lake/lake-shoot-3.jpg",
+    image: "/lake/lake-shoot-4.jpg",
     class: "object-center",
   },
 ];
