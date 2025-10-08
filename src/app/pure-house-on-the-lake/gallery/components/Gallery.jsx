@@ -20,11 +20,6 @@ const GalleryImage = [
   },
   {
     image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759765784/PureHouseOnTheLake/lake-27_nt4rvx.jpg",
-    class: "object-center",
-  },
-  {
-    image:
       "https://res.cloudinary.com/dz7wroord/image/upload/v1759765800/PureHouseOnTheLake/lake-40_oxtnwg.jpg",
     class: "object-center",
   },
@@ -92,12 +87,12 @@ const Gallery = () => {
         {GalleryImage.map((category, index) => (
           <div key={index} className="flex flex-col">
             {/* Image */}
-            <div className="relative w-full h-full aspect-[9/16]">
+            <div className="relative w-full h-[65vh] ">
               <Image
                 src={category.image}
                 alt="Gallery Pure House On The Lake"
                 fill
-                className={`object-cover ${category.class}`}
+                className={`object-cover h-full ${category.class}`}
               />
             </div>
           </div>

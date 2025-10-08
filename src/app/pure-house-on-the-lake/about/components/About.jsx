@@ -53,7 +53,7 @@ const About = () => {
         {GalleryImage.map((category, index) => (
           <div key={index} className="flex flex-col">
             {/* Image */}
-            <div className="relative w-full h-screen">
+            <div className="relative w-full h-[65vh] lg:h-screen">
               <Image
                 src={category.image}
                 alt="Gallery Pure House On The Lake"

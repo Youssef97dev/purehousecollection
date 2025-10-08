@@ -53,7 +53,7 @@ const Navbar = ({ path, change = false }) => {
               width={300}
               height={300}
               alt="Logo pure house on the lake"
-              className={`w-[90%]`}
+              className={`w-[85%]`}
             />
           </Link>
         </div>

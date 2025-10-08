@@ -24,7 +24,7 @@ const Loader = () => {
         <p className="px-8 lg:px-[28.5rem] font-robotoThin text-center text-[22px] lg:text-[25px] leading-[32px] lg:leading-[30px] text-[#79431d] pb-10">{`WE LIVE TO INSPIRE AND BE INSPIRED, TO EXPAND BEYOND LABELS AND BOUNDARIES. WE FIND BEAUTY WHERE CULTURES MEET, NATURE REIGNS AND CREATIVITY RUNS FREE`}</p>
 
         <div className="w-full flex justify-center items-end gap-14 lg:gap-20">
-          <Link href="/pure-house-medina" className="">
+          <Link href="https://purehousemarrakech.com/" className="">
             <Image
               src="/riad/riad-logo-black-v3.png" // Replace with your logo path
               alt="Logo"

@@ -49,7 +49,7 @@ const Yoga = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
         {yogaImage.map((category, index) => (
           <div key={index} className="flex flex-col">
-            <div className="relative w-full h-[80vh]">
+            <div className="relative w-full h-[55vh]">
               <Image
                 src={category.image}
                 alt="Yoga Pure House On The Lake"
@@ -60,12 +60,12 @@ const Yoga = () => {
           </div>
         ))}
         <div className="flex flex-col">
-          <div className="relative w-full h-[80vh]">
+          <div className="relative w-full h-[55vh] lg:h-[80vh]">
             <Image
               src="https://res.cloudinary.com/dz7wroord/image/upload/v1759844859/PureHouseOnTheLake/yoga-4_edu3m6.jpg"
               alt="Yoga Pure House On The Lake"
               fill
-              className={`object-cover object-right`}
+              className={`object-cover `}
             />
           </div>
         </div>
