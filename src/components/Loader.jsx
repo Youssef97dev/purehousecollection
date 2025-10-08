@@ -16,7 +16,7 @@ const Loader = () => {
             alt="Logo"
             width={500}
             height={500}
-            className="w-72 lg:w-72"
+            className="w-80 lg:w-72"
           />
           {/*<span className="font-tropic text-[14px]">{"Discover"}</span>
           <MdOutlineKeyboardArrowDown size={12} />*/}
@@ -53,7 +53,7 @@ const Loader = () => {
             />
           </Link>
         </div>
-        <p className="px-4 pt-5 lg:px-[28.5rem] font-robotoThin text-center text-[28px] lg:text-[25px] leading-[32px] lg:leading-[30px] text-[#000000] pb-10 uppercase">{`A Home Away From Home`}</p>
+        <p className="px-4 pt-3 lg:px-[28.5rem] font-robotoThin text-center text-[23px] lg:text-[25px] leading-[32px] lg:leading-[30px] text-[#000000] pb-10 uppercase">{`A Home Away From Home`}</p>
       </div>
 
       <div className="absolute top-8 right-10">
