@@ -24,7 +24,7 @@ const Loader = () => {
         <p className="px-8 lg:px-[24rem] font-robotoThin text-center text-[22px] lg:text-[25px] leading-[32px] lg:leading-[30px] text-[#79431d] pb-10 uppercase">{`Nous vivons pour inspirer et être inspirés, pour dépasser les étiquettes et les frontières. Nous trouvons la beauté là où les cultures se rencontrent, où la nature règne et où la créativité s’exprime librement.`}</p>
 
         <div className="w-full flex justify-center items-end gap-14 lg:gap-20">
-          <Link href="#" className="">
+          <Link href="https://purehousemarrakech.com/fr/" className="">
             <Image
               src="/riad/riad-logo-black-v3.png" // Replace with your logo path
               alt="Logo"
@@ -44,7 +44,7 @@ const Loader = () => {
             />
           </Link>
 
-          <Link href="#" className="">
+          <Link href="/fr/pure-house-on-the-lake" className="">
             <Image
               src="/lake/lake-logo-black-v2.png" // Replace with your logo path
               alt="Logo"
