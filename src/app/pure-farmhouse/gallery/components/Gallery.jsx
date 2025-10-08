@@ -142,12 +142,12 @@ const GalleryImage = [
 
 const Gallery = () => {
   return (
-    <section className="px-5 md:px-48 py-12 space-y-8 pt-20">
+    <section className="px-5 md:px-48 py-12 space-y-8 pt-28">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5">
         {GalleryImage.map((category, index) => (
           <div key={index} className="flex flex-col">
             {/* Image */}
-            <div className="relative w-full h-full aspect-[9/16]">
+            <div className="relative w-full h-[65vh]">
               <Image
                 src={category.image}
                 alt="Gallery Pure Farm House"

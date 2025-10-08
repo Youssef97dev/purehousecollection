@@ -71,6 +71,11 @@ const Navbar = ({ path, change = false }) => {
             <Link href="/pure-house-on-the-lake/gallery">{"Gallery"}</Link>
           </li>
           <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
+            <Link href="/pure-house-on-the-lake/photoshooting">
+              {"Photoshooting"}
+            </Link>
+          </li>
+          <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
             <Link href="/pure-house-on-the-lake/yoga-wellness">
               {"Yoga & Wellness"}
             </Link>
@@ -151,6 +156,11 @@ const Navbar = ({ path, change = false }) => {
               </li>
               <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
                 <Link href="/pure-house-on-the-lake/gallery">{"Gallery"}</Link>
+              </li>
+              <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
+                <Link href="/pure-house-on-the-lake/photoshooting">
+                  {"Photoshooting"}
+                </Link>
               </li>
               <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
                 <Link href="/pure-house-on-the-lake/yoga-wellness">

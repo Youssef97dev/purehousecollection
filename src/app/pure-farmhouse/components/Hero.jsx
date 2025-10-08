@@ -95,7 +95,7 @@ const Hero = () => {
           width={300}
           height={300}
           alt="Logo Pure Farm House"
-          className={`w-56 lg:w-60 opacity-95`}
+          className={`w-32 lg:w-60 opacity-95`}
         />
       </div>
 

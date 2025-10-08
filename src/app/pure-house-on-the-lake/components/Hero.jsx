@@ -93,14 +93,14 @@ const Hero = () => {
       {/* Overlay */}
       <div className="absolute inset-0 filter sepia contrast-125"></div>
 
-      <div className="absolute top-0 w-full h-full flex justify-center items-center z-50">
+      <div className="absolute top-36 w-full h-full flex justify-center items-center z-50">
         <Link href="/pure-house-on-the-lake">
           <Image
             src={"/lake/lake-logo-white-v2.png"}
             width={300}
             height={300}
             alt="Logo pure house on the lake"
-            className={`mt-2 w-64 lg:w-60`}
+            className={`mt-2 w-32 lg:w-60`}
           />
         </Link>
       </div>
