@@ -83,7 +83,7 @@ const Hero = () => {
           >
             <Image
               src={image.src}
-              alt={`Image ${index + 1}`}
+              alt={`on the lake ${index + 1}`}
               width={1500}
               height={1500}
               className={`w-full h-full object-cover ${image.class}`}
