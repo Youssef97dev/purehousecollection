@@ -3,33 +3,36 @@ import Image from "next/image";
 import Link from "next/link";
 
 const RoomsImage = [
-  { image: "/farm/rooms/room-1.jpg", class: "object-bottom" },
   {
-    image: "/farm/rooms/room-2.jpg",
+    image: "/farm/rooms/room-15.jpg",
+    class: "object-bottom",
+  },
+  {
+    image: "/farm/rooms/room-16.jpg",
     class: "object-center",
   },
   {
-    image: "/farm/rooms/room-3.jpg",
+    image: "/farm/rooms/room-11.jpg",
     class: "object-center",
   },
   {
-    image: "/farm/rooms/room-4.jpg",
+    image: "/farm/rooms/room-12.jpg",
     class: "object-center",
   },
   {
-    image: "/farm/rooms/room-5.jpg",
+    image: "/farm/farm-hero-3.webp",
     class: "object-center",
   },
   {
-    image: "/farm/rooms/room-6.jpg",
-    class: "object-center",
-  },
-  {
-    image: "/farm/rooms/room-7.jpg",
+    image: "/farm/farm-hero-5.webp",
     class: "object-left",
   },
   {
-    image: "/farm/rooms/room-9.jpg",
+    image: "/farm/farm-hero-6.webp",
+    class: "object-center",
+  },
+  {
+    image: "/farm/rooms/room-13.jpg",
     class: "object-center",
   },
 ];
@@ -38,13 +41,13 @@ const Rooms = () => {
   return (
     <section className="px-5 lg:px-48 py-12 space-y-8">
       <h1 className="font-vanitas uppercase tracking-wide text-[30px] lg:text-[32px] leading-[32px] text-center">
-        {"Pure Farmhouse Rooms"}
+        {"Pure Farmhouse Gallery"}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {RoomsImage.map((category, index) => (
           <div key={index} className="flex flex-col">
             {/* Image */}
-            <div className="relative w-full h-72 md:h-96">
+            <div className="relative w-full h-[65vh] lg:h-[80vh]">
               <Image
                 src={category.image}
                 alt="Rooms Pure Farm House"

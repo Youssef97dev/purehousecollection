@@ -1,10 +1,21 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const GalleryImage = [
   {
     image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417342/PureFarmHouse/farmhouse-26_ipyt5l.webp",
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-11_ur7sbj.webp",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-9_tcsbcp.webp",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-10_xrkhpv.webp",
     class: "object-center",
   },
   {
@@ -94,26 +105,6 @@ const GalleryImage = [
   },
   {
     image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417340/PureFarmHouse/farmhouse-12_maic7v.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-10_xrkhpv.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-11_ur7sbj.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-9_tcsbcp.webp",
-    class: "object-center",
-  },
-  {
-    image:
       "https://res.cloudinary.com/dz7wroord/image/upload/v1759417338/PureFarmHouse/farmhouse-5_bblxo4.webp",
     class: "object-center",
   },
@@ -141,15 +132,15 @@ const GalleryImage = [
 
 const Gallery = () => {
   return (
-    <section className="px-5 md:px-48 py-12 space-y-8 pt-20">
+    <section className="px-5 md:px-48 py-12 space-y-8 pt-28">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-5">
         {GalleryImage.map((category, index) => (
           <div key={index} className="flex flex-col">
             {/* Image */}
-            <div className="relative w-full h-full aspect-[9/16]">
+            <div className="relative w-full h-[65vh]">
               <Image
                 src={category.image}
-                alt="Galerie Pure Farm House"
+                alt="Gallery Pure Farm House"
                 fill
                 className={`object-cover ${category.class}`}
               />

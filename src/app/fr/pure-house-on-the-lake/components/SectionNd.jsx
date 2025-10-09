@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const SectionNd = () => {
   return (
@@ -11,6 +12,12 @@ const SectionNd = () => {
           "Chacune des sept demeures de Pure House On The Lake a été conçue avec une intention réfléchie : maximiser les panoramas grandioses, capter l’ombre et l’abri idéaux, et garantir un retrait absolu. Ici, l’intimité vous enveloppe tel un berceau, et le premier son du jour vous relie instantanément au battement régulier de la terre."
         }
       </p>
+      <Link
+        href="#"
+        className="px-6 py-3 border border-lake_text text-lake_text uppercase tracking-widest hover:bg-lake_button hover:text-white transition font-extralight text[13px] leading-[15px]"
+      >
+        Réserver
+      </Link>
     </div>
   );
 };

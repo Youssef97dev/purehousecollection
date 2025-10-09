@@ -188,7 +188,7 @@ const Navbar = ({ path, change = false }) => {
                   </Link>
                 </li>
                 <li className="px-2 rounded-lg cursor-pointer">
-                  <Link rel="alternate" hreflang="fr" href={`/fr${path}`}>
+                  <Link rel="alternate" hreflang="fr" href={`${path}`}>
                     <Image
                       src="/france.png"
                       width={100}

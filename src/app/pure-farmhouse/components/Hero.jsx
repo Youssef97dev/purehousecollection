@@ -88,7 +88,7 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-      {/* Overlay */}
+      {/* Overlay 
       <div className="absolute top-28 lg:top-0 w-full h-full flex justify-center items-center">
         <Image
           src="/farm/farm-logo-white.png"
@@ -97,7 +97,7 @@ const Hero = () => {
           alt="Logo Pure Farm House"
           className={`w-32 lg:w-60 opacity-95`}
         />
-      </div>
+      </div>*/}
 
       <div className="absolute inset-0 bg-black bg-opacity-10 top-0 w-full h-full flex justify-center items-center"></div>
 

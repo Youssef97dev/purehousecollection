@@ -69,12 +69,12 @@ const Navbar = ({ path, change = false }) => {
               <Link href="/fr/pure-farmhouse/contact">{"Contact"}</Link>
             </li>
             <li className="hover:text-black">
-              <Link href="https://purehousemarrakech.com/">
+              <Link href="https://purehousemarrakech.com/fr">
                 {"Pure House Medina"}
               </Link>
             </li>
             <li className="hover:text-black">
-              <Link href="/pure-house-on-the-lake">
+              <Link href="/fr/pure-house-on-the-lake">
                 {"Pure House On The Lake"}
               </Link>
             </li>

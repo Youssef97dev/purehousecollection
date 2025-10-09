@@ -5,7 +5,17 @@ import Link from "next/link";
 const GalleryImage = [
   {
     image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417342/PureFarmHouse/farmhouse-26_ipyt5l.webp",
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-11_ur7sbj.webp",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-9_tcsbcp.webp",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-10_xrkhpv.webp",
     class: "object-center",
   },
   {
@@ -91,26 +101,6 @@ const GalleryImage = [
   {
     image:
       "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-1_iltk2a.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417340/PureFarmHouse/farmhouse-12_maic7v.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-10_xrkhpv.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-11_ur7sbj.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-9_tcsbcp.webp",
     class: "object-center",
   },
   {

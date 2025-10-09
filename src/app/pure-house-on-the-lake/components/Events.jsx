@@ -9,10 +9,10 @@ const Events = () => {
         backgroundImage: "url('/lake/purehouse-on-the-lake-events.jpg')",
       }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 h-full bg-black/20" />
+      {/* Overlay 
+      <div className="absolute inset-0 h-full bg-black/20" />*/}
 
-      {/* Content */}
+      {/* Content 
       <div className="relative text-center text-white  font-thin space-y-10">
         <div className="text-[20px] leading-[27.5px] sm:text-[30px] sm:leading-[33px] md:text-[35px] md:leading-[38px] mb-6 uppercase">
           Experience simplicity with elegance
@@ -25,7 +25,7 @@ const Events = () => {
             Events
           </Link>
         </div>
-      </div>
+      </div>*/}
     </section>
   );
 };

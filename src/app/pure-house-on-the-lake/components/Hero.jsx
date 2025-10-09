@@ -32,11 +32,11 @@ const imagesSmall = [
     class: "object-center",
   },
   {
-    src: "/lake/on-the-lake-small-3.jpg",
+    src: "/lake/lake-event-hero-large.jpg",
     class: "object-center",
   },
   {
-    src: "/lake/on-the-lake-small-4.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1759765783/PureHouseOnTheLake/lake-22_oxvkz8.jpg",
     class: "object-center",
   },
 ];

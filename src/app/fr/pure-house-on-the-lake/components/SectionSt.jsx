@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const SectionSt = () => {
   return (
@@ -13,6 +14,12 @@ const SectionSt = () => {
           "À Pure House On The Lake, bercé par l’immensité de l’eau et le regard ancestral des montagnes de l’Atlas, ce sentiment n’est pas laissé au hasard. Il est cultivé. Au rythme des vagues paisibles, dans la chaleur des murs aux tons terreux et sous le ciel infini surplombant le lac serein, la paix s’installe en profondeur, vous chuchotant que vous êtes précisément là où vous devez être."
         }
       </p>
+      <Link
+        href="/fr/pure-house-on-the-lake/about"
+        className="px-6 py-3 border border-lake_text text-lake_text uppercase tracking-widest hover:bg-lake_mobile hover:text-white transition font-extralight text[13px] leading-[15px]"
+      >
+        A Propos
+      </Link>
     </div>
   );
 };
