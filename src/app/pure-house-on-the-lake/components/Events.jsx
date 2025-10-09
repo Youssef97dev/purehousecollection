@@ -6,7 +6,8 @@ const Events = () => {
     <section
       className="relative h-[70vh] lg:bg-fixed bg-bottom bg-cover flex items-center justify-center"
       style={{
-        backgroundImage: "url('/lake/purehouse-on-the-lake-events.jpg')",
+        backgroundImage:
+          "url('https://res.cloudinary.com/dz7wroord/image/upload/v1760018828/PureHouseOnTheLake/IMG_9217_lpyvj5.jpg')",
       }}
     >
       {/* Overlay 

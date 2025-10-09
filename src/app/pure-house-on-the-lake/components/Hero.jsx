@@ -32,11 +32,11 @@ const imagesSmall = [
     class: "object-center",
   },
   {
-    src: "/lake/lake-event-hero-large.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1760018827/PureHouseOnTheLake/IMG_9215_rx4fop.jpg",
     class: "object-center",
   },
   {
-    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1759765783/PureHouseOnTheLake/lake-22_oxvkz8.jpg",
+    src: "https://res.cloudinary.com/dz7wroord/image/upload/v1760018827/PureHouseOnTheLake/IMG_9213_tpkt83.jpg",
     class: "object-center",
   },
 ];

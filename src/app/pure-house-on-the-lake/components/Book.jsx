@@ -7,7 +7,7 @@ const Book = () => {
       className="relative h-[70vh] lg:bg-fixed bg-bottom bg-cover flex items-center justify-center"
       style={{
         backgroundImage:
-          "url('https://res.cloudinary.com/dz7wroord/image/upload/v1759765778/PureHouseOnTheLake/lake-19_nxjyr9.jpg')",
+          "url('https://res.cloudinary.com/dz7wroord/image/upload/v1760018829/PureHouseOnTheLake/IMG_9358_sgssol.jpg')",
       }}
     >
       {/* Overlay 
