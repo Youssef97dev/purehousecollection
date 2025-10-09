@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="/lake/on-the-lake-small-3.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/v1760018829/PureHouseOnTheLake/IMG_9358_sgssol.jpg"
           alt="About pure house on the lake"
           width={1500}
           height={1500}
@@ -25,7 +25,8 @@ const Hero = () => {
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 filter sepia contrast-125"></div>
+
+      <div className="absolute inset-0 bg-black opacity-10"></div>
 
       <h1 className="absolute top-0 w-full h-full flex justify-center items-center z-50 uppercase text-[25px] leading-[27px] sm:text-[30px] sm:leading-[33px] lg:text-[35px] lg:leading-[38.5px] text-white">
         {"A HOME WITH HEART"}

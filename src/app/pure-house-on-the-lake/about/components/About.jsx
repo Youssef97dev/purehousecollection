@@ -15,7 +15,7 @@ const GalleryImage = [
   },
   {
     image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759765797/PureHouseOnTheLake/lake-38_m18ryn.jpg",
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018830/PureHouseOnTheLake/IMG_9407_dcvqqk.jpg",
     class: "object-center",
   },
   {

@@ -5,6 +5,41 @@ import Link from "next/link";
 const GalleryImage = [
   {
     image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018827/PureHouseOnTheLake/IMG_9215_rx4fop.jpg",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018827/PureHouseOnTheLake/IMG_9216_ofrzle.jpg",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018827/PureHouseOnTheLake/IMG_9213_tpkt83.jpg",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018828/PureHouseOnTheLake/IMG_9217_lpyvj5.jpg",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018829/PureHouseOnTheLake/IMG_9358_sgssol.jpg",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018830/PureHouseOnTheLake/IMG_9407_dcvqqk.jpg",
+    class: "object-center",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018830/PureHouseOnTheLake/IMG_9362_vckvjw.jpg",
+    class: "object-center",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dz7wroord/image/upload/v1759765784/PureHouseOnTheLake/lake-23_pkd4tn.jpg",
     class: "object-center",
   },
