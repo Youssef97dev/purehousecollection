@@ -33,7 +33,7 @@ const Navbar = ({ path, change = false }) => {
       }`}
     >
       <div className="w-full flex justify-between items-center mx-auto px-5 lg:px-14">
-        <div className="w-[80%] lg:w-[30%] flex justify-start items-center gap-10">
+        <div className="w-[80%] lg:w-[20%] flex justify-start items-center gap-10">
           <Link href="/pure-house-on-the-lake" className="hidden md:block">
             <Image
               src={
@@ -57,7 +57,7 @@ const Navbar = ({ path, change = false }) => {
             />
           </Link>
         </div>
-        <ul className="w-full lg:w-[50%] lg:flex hidden justify-end items-center gap-10 uppercase text-[12px] leading-[20.4px] font-montserrat font-normal tracking-widest">
+        <ul className="w-full lg:w-[60%] lg:flex hidden justify-end items-center gap-10 uppercase text-[12px] leading-[20.4px] font-montserrat font-normal tracking-widest">
           <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
             <Link href="/pure-house-on-the-lake">{"Home"}</Link>
           </li>
