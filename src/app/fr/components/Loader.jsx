@@ -24,7 +24,7 @@ const Loader = () => {
           {isDropdownOpen && (
             <ul className="absolute rounded top-8 bg-riad_background -left-9 mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
               <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary">
-                <Link href="#">
+                <Link href="/">
                   <Image
                     src="/english.png"
                     width={100}
@@ -35,7 +35,7 @@ const Loader = () => {
                 </Link>
               </li>
               <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary">
-                <Link href="/fr">
+                <Link href="#">
                   <Image
                     src="/france.png"
                     width={100}
