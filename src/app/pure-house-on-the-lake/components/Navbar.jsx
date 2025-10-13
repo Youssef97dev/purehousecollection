@@ -75,11 +75,11 @@ const Navbar = ({ path, change = false }) => {
               {"Photoshooting"}
             </Link>
           </li>
-          <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
+          {/*<li className="hover:opacity-80 transition-all duration-200 ease-in-out">
             <Link href="/pure-house-on-the-lake/yoga-wellness">
               {"Yoga & Wellness"}
             </Link>
-          </li>
+          </li>*/}
         </ul>
         <div className="w-full lg:w-[20%] lg:flex hidden justify-center gap-3 items-center  text-white cursor-pointer">
           <Link
@@ -162,11 +162,11 @@ const Navbar = ({ path, change = false }) => {
                   {"Photoshooting"}
                 </Link>
               </li>
-              <li className="hover:opacity-80 transition-all duration-200 ease-in-out">
+              {/*<li className="hover:opacity-80 transition-all duration-200 ease-in-out">
                 <Link href="/pure-house-on-the-lake/yoga-wellness">
                   {"Yoga & Wellness"}
                 </Link>
-              </li>
+              </li>*/}
               <li>
                 <Link
                   href="#"
