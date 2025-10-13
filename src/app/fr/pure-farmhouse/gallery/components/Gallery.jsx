@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const GalleryImage = [
   {
-    image: "/farm/room-16.jpg",
+    image: "/farm/rooms/room-16.jpg",
     class: "object-center",
   },
   {
