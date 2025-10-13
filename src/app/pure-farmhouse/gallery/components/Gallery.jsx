@@ -4,128 +4,87 @@ import Link from "next/link";
 
 const GalleryImage = [
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-11_ur7sbj.webp",
+    image: "/farm/room-16.jpg",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-9_tcsbcp.webp",
+    image: "/farm/gallery/farmhouse-9.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-10_xrkhpv.webp",
+    image: "/farm/gallery/farmhouse-10.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417342/PureFarmHouse/farmhouse-28_pvrfjn.webp",
+    image: "/farm/gallery/farmhouse-28.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417342/PureFarmHouse/farmhouse-25_y4ic2x.webp",
+    image: "/farm/gallery/farmhouse-25.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417341/PureFarmHouse/farmhouse-24_lgkmr3.webp",
+    image: "/farm/gallery/farmhouse-24.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417341/PureFarmHouse/farmhouse-20_kv20n0.webp",
+    image: "/farm/gallery/farmhouse-20.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417341/PureFarmHouse/farmhouse-22_ne9fl1.webp",
+    image: "/farm/gallery/farmhouse-22.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417341/PureFarmHouse/farmhouse-19_y5qeyq.webp",
+    image: "/farm/gallery/farmhouse-21.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417340/PureFarmHouse/farmhouse-17_wvk14n.webp",
+    image: "/farm/gallery/farmhouse-16.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417341/PureFarmHouse/farmhouse-23_vbfjhx.webp",
+    image: "/farm/gallery/farmhouse-15.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417341/PureFarmHouse/farmhouse-21_yfvxgq.webp",
+    image: "/farm/farm-hero-mobile-2.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417341/PureFarmHouse/farmhouse-16_uh8sjx.webp",
+    image: "/farm/gallery/farmhouse-14.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417340/PureFarmHouse/farmhouse-15_wzlrx8.webp",
+    image: "/farm/gallery/farmhouse-6.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417340/PureFarmHouse/farmhouse-18_pnims1.webp",
+    image: "/farm/gallery/farmhouse-4.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417340/PureFarmHouse/farmhouse-14_acq5hh.webp",
+    image: "/farm/gallery/farmhouse-13.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-6_q7d1zg.webp",
+    image: "/farm/gallery/farmhouse-1.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417338/PureFarmHouse/farmhouse-4_kzm4ie.webp",
+    image: "/farm/gallery/farmhouse-5.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417340/PureFarmHouse/farmhouse-13_gbixib.webp",
+    image: "/farm/gallery/farmhouse-7.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417339/PureFarmHouse/farmhouse-1_iltk2a.webp",
+    image: "/farm/gallery/farmhouse-8.webp",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417338/PureFarmHouse/farmhouse-5_bblxo4.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417337/PureFarmHouse/farmhouse-7_aagvdc.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417338/PureFarmHouse/farmhouse-8_lkdjlf.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417337/PureFarmHouse/farmhouse-2_vlzky0.webp",
-    class: "object-center",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759417335/PureFarmHouse/farmhouse-3_hsx8df.webp",
+    image: "/farm/gallery/farmhouse-2.webp",
     class: "object-center",
   },
 ];
