@@ -81,7 +81,10 @@ const Hero = () => {
       </div>
       <div className="w-full h-full lg:hidden block">
         <video className="object-cover h-full w-full" autoPlay loop muted>
-          <source src="/farm/farmhouse-hero-mobile.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dttbjqpji/video/upload/v1760365741/farmhouse-hero-mobile_p5ujv0.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
       </div>
