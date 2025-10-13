@@ -7,7 +7,7 @@ const About = () => {
       <section
         className="relative h-[70vh] hidden bg-fixed bg-bottom bg-cover lg:flex items-center justify-center"
         style={{
-          backgroundImage: "url('/lake/yoga_6.jpg')",
+          backgroundImage: "url('/lake/yoga-6.jpg')",
         }}
       >
         {/* Overlay 

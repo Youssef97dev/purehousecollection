@@ -13,7 +13,7 @@ const imagesLarge = [
     class: "object-center",
   },
   {
-    src: "/lake/on-the-lake-large-3.jpg",
+    src: "/lake/IMG_9356.jpeg",
     class: "object-center",
   },
   {
