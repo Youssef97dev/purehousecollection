@@ -7,8 +7,7 @@ const Book = () => {
       <section
         className="relative h-[70vh] hidden bg-fixed bg-center bg-cover lg:flex items-center justify-center"
         style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dz7wroord/image/upload/v1760018828/PureHouseOnTheLake/IMG_9241_gdoxhl.jpg')",
+          backgroundImage: "url('/lake/IMG_9241.jpeg')",
         }}
       >
         {/* Overlay 
@@ -27,8 +26,7 @@ const Book = () => {
       <section
         className="relative lg:hidden h-[70vh] bg-bottom bg-cover flex items-center justify-center"
         style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dz7wroord/image/upload/v1760018829/PureHouseOnTheLake/IMG_9358_sgssol.jpg')",
+          backgroundImage: "url('/lake/IMG_9358.jpeg')",
         }}
       >
         {/* Overlay 

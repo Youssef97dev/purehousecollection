@@ -7,8 +7,7 @@ const Events = () => {
       <section
         className="relative h-[70vh] lg:hidden bg-bottom bg-cover flex items-center justify-center"
         style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dz7wroord/image/upload/v1760018828/PureHouseOnTheLake/IMG_9217_lpyvj5.jpg')",
+          backgroundImage: "url('/lake/IMG_9217.jpeg')",
         }}
       >
         {/* Overlay 
@@ -33,8 +32,7 @@ const Events = () => {
       <section
         className="relative h-[70vh] hidden bg-fixed bg-bottom bg-cover lg:flex items-center justify-center"
         style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dz7wroord/image/upload/v1760018829/PureHouseOnTheLake/IMG_9356_l3eyxw.jpg')",
+          backgroundImage: "url('/lake/IMG_9356.jpeg')",
         }}
       >
         {/* Overlay 

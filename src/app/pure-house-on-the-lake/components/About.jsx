@@ -7,8 +7,7 @@ const About = () => {
       <section
         className="relative h-[70vh] hidden bg-fixed bg-bottom bg-cover lg:flex items-center justify-center"
         style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dz7wroord/image/upload/v1759846002/PureHouseOnTheLake/yoga-6_1_bcuphl.jpg')",
+          backgroundImage: "url('/lake/yoga_6.jpg')",
         }}
       >
         {/* Overlay 
@@ -33,8 +32,7 @@ const About = () => {
       <section
         className="relative lg:hidden h-[70vh] bg-center bg-cover flex items-center justify-center"
         style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dz7wroord/image/upload/v1759765792/PureHouseOnTheLake/lake-37_npii9v.jpg')",
+          backgroundImage: "url('/lake/lake-37.jpg')",
         }}
       >
         {/* Overlay 

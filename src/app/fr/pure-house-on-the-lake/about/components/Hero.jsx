@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="w-full h-full block lg:hidden">
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1760018829/PureHouseOnTheLake/IMG_9358_sgssol.jpg"
+          src="/lake/IMG_9358.jpeg"
           alt="About pure house on the lake"
           width={1500}
           height={1500}

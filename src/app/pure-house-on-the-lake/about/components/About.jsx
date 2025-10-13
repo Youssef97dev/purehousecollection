@@ -4,23 +4,19 @@ import Link from "next/link";
 
 const GalleryImage = [
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759765791/PureHouseOnTheLake/lake-33_uz9gb3.jpg",
+    image: "/lake/lake-33.jpg",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759765777/PureHouseOnTheLake/lake-12_fz5ldu.jpg",
+    image: "/lake/lake-12.jpg",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1760018830/PureHouseOnTheLake/IMG_9407_dcvqqk.jpg",
+    image: "/lake/IMG_9407.jpeg",
     class: "object-center",
   },
   {
-    image:
-      "https://res.cloudinary.com/dz7wroord/image/upload/v1759765784/PureHouseOnTheLake/lake-28_fy4r4s.jpg",
+    image: "/lake/lake-28.jpg",
     class: "object-center",
   },
 ];
