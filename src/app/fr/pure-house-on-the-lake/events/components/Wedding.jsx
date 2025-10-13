@@ -9,7 +9,7 @@ const Wedding = () => {
       <div className="relative w-full">
         <Image
           id="wedding-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1759765800/PureHouseOnTheLake/lake-42_tokd9q.jpg"
+          src="/lake/lake-42.jpg"
           height={1000}
           width={1000}
           alt="Wedding Pure House on the lake"

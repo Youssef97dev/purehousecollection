@@ -9,7 +9,7 @@ const Experts = () => {
       <div className="relative w-full">
         <Image
           id="expert-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1753457348/dar_ouzguita/yuo_jjfawh.jpg"
+          src="/lake/lake-22.jpg"
           height={1000}
           width={1000}
           alt="Experts Events Oure House On The Lake"

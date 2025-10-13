@@ -9,7 +9,7 @@ const SectionEv = () => {
       <div className="relative w-full">
         <Image
           id="wedding-image"
-          src="https://res.cloudinary.com/dz7wroord/image/upload/v1752761706/dar_ouzguita/boho_house_21_uubt7h.jpg"
+          src="/lake/IMG_9215.jpeg"
           height={1000}
           width={1000}
           alt="Event Pure House On The Lake"
