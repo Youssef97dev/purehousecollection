@@ -20,11 +20,6 @@ module.exports = {
       },
       fontFamily: {
         robotoThin: ["RobotoThin", "sans-serif"],
-        astrolove: ["Astrolove", "sans-serif"],
-        vanitas: ["Vanitas", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
-        lora: ["Lora", "sans-serif"],
-        helvetica: ["HelveticaNeueThin", "sans-serif"],
       },
       animation: {
         "slide-left": "slideLeft 2s ease-in-out forwards",

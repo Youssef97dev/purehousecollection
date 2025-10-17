@@ -75,7 +75,7 @@ const Loader = () => {
               />
             </Link>
 
-            <Link href="/fr/pure-farmhouse" className="">
+            <Link href="https://purefarmhouse.com/fr" className="">
               <Image
                 src="/farm/farm-logo-black.png" // Replace with your logo path
                 alt="Logo"
@@ -85,7 +85,7 @@ const Loader = () => {
               />
             </Link>
 
-            <Link href="/fr/pure-house-on-the-lake" className="">
+            <Link href="https://purehouseonthelake.com/fr" className="">
               <Image
                 src="/lake/lake-logo-black-v2.png" // Replace with your logo path
                 alt="Logo"
