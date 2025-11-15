@@ -24,7 +24,7 @@ const Loader = () => {
           {isDropdownOpen && (
             <ul className="absolute rounded top-8 bg-riad_background -left-9 mt-2 py-2 w-32 shadow-lg flex justify-center items-center">
               <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary">
-                <Link href="#">
+                <Link rel="alternate" href="#" hreflang="en">
                   <Image
                     src="/english.png"
                     width={100}
@@ -35,7 +35,7 @@ const Loader = () => {
                 </Link>
               </li>
               <li className="px-4 py-2 rounded-lg cursor-pointer hover:bg-riad_secondary">
-                <Link href="/fr">
+                <Link rel="alternate" href="/fr" hreflang="fr">
                   <Image
                     src="/france.png"
                     width={100}
@@ -65,7 +65,12 @@ const Loader = () => {
 
         <div className="w-full h-[25%] lg:h-full flex flex-col justify-end items-center gap-3 lg:gap-6">
           <div className="w-full flex justify-center items-end gap-14">
-            <Link href="https://purehousemarrakech.com/" className="">
+            <Link
+              rel="alternate"
+              href="https://purehousemarrakech.com/"
+              hreflang="en"
+              className=""
+            >
               <Image
                 src="/riad/riad-logo-black.png" // Replace with your logo path
                 alt="Logo"
@@ -75,23 +80,33 @@ const Loader = () => {
               />
             </Link>
 
-            <Link href="https://purefarmhouse.com/" className="">
-              <Image
-                src="/farm/farm-logo-black.png" // Replace with your logo path
-                alt="Logo"
-                width={500}
-                height={500}
-                className="w-14 lg:w-16 animate-scale-3d"
-              />
-            </Link>
-
-            <Link href="https://purehouseonthelake.com/" className="">
+            <Link
+              rel="alternate"
+              href="https://purehouseonthelake.com/"
+              hreflang="en"
+              className=""
+            >
               <Image
                 src="/lake/lake-logo-black-v2.png" // Replace with your logo path
                 alt="Logo"
                 width={500}
                 height={500}
                 className="w-14 lg:w-16 animate-scale-3d delay-150"
+              />
+            </Link>
+
+            <Link
+              rel="alternate"
+              href="https://purefarmhouse.com/"
+              hreflang="en"
+              className=""
+            >
+              <Image
+                src="/farm/farm-logo-black-4.png" // Replace with your logo path
+                alt="Logo"
+                width={500}
+                height={500}
+                className="w-[75px] lg:w-16 animate-scale-3d"
               />
             </Link>
           </div>
