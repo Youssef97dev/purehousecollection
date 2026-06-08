@@ -67,8 +67,23 @@ const Loader = () => {
           <div className="w-full flex justify-center items-end gap-14">
             <Link
               rel="alternate"
-              href="https://purehousemarrakech.com/fr"
-              hreflang="fr"
+              href="https://purefarmhouse.com/fr/"
+              hreflang="en"
+              className=""
+            >
+              <Image
+                src="/farm/farmhouse-logo-black.png" // Replace with your logo path
+                alt="Logo"
+                width={500}
+                height={500}
+                className="w-[50px] lg:w-16 animate-scale-3d"
+              />
+            </Link>
+
+            <Link
+              rel="alternate"
+              href="https://purehousemarrakech.com/fr/"
+              hreflang="en"
               className=""
             >
               <Image
@@ -82,31 +97,16 @@ const Loader = () => {
 
             <Link
               rel="alternate"
-              href="https://purefarmhouse.com/fr"
-              hreflang="fr"
+              href="https://purehouseonthelake.com/fr/"
+              hreflang="en"
               className=""
             >
               <Image
-                src="/farm/farm-logo-black.png" // Replace with your logo path
+                src="/lake/lake-logo-black-nav.png" // Replace with your logo path
                 alt="Logo"
                 width={500}
                 height={500}
-                className="w-14 lg:w-16 animate-scale-3d"
-              />
-            </Link>
-
-            <Link
-              rel="alternate"
-              href="https://purehouseonthelake.com/fr"
-              hreflang="fr"
-              className=""
-            >
-              <Image
-                src="/lake/lake-logo-black-v2.png" // Replace with your logo path
-                alt="Logo"
-                width={500}
-                height={500}
-                className="w-14 lg:w-16 animate-scale-3d delay-150"
+                className="w-[75px] lg:w-16 animate-scale-3d delay-150"
               />
             </Link>
           </div>
