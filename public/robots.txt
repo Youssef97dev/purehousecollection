@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.purehousecollection.com/sitemap.xml
+Sitemap: https://purehousecollection.com/sitemap.xml

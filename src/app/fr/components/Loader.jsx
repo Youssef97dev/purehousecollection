@@ -110,7 +110,7 @@ const Loader = () => {
               />
             </Link>
           </div>
-          <p className="px-4 pt-3 lg:px-[28.5rem] font-robotoThin text-center text-[23px] lg:text-[30px] leading-[32px] lg:leading-[30px] text-[#000000] pb-2 uppercase">{`Une maison loin de chez soi`}</p>
+          <p className="px-4 pt-3 lg:px-[28.5rem] font-robotoThin text-center text-[23px] lg:text-[30px] leading-[32px] lg:leading-[30px] text-[#000000] pb-2 uppercase">{`A Home Away From Home`}</p>
         </div>
       </div>
     </div>
